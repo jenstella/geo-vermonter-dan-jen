@@ -1,7 +1,11 @@
 import './App.css';
 import { useState } from 'react'
-
+import NavBar from './components/NavBar'
+import DirButtons from './components/DirButtons'
+import PlayButtons from './components/PlayButtons'
 import Map from './components/Map'
+import Info from './components/Info'
+import Score from './components/Score'
 
 function App() {
 
@@ -9,7 +13,12 @@ function App() {
 
   return (
     <div>
+      <NavBar />
       <Map center={center} />
+      <PlayButtons />
+      <DirButtons />
+      <Info />
+      <Score />
     </div>
   );
 }
