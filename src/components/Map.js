@@ -6,14 +6,22 @@ import leafletPip from "leaflet-pip"
 function Map(props) {
   let vtOutline = borderData.geometry.coordinates[0].map(coords => [coords[1], coords[0]])
 
-  let gjLayer = L.geoJSON(borderData)
+  // let gjLayer = L.geoJSON(borderData)
 
-  let results = leafletPip.pointInLayer([-72.7317 , 43.88], gjLayer); //returns an array. if length is 0, not in VT, goes again. if length is 1, it is in VT
-  console.log(results)
+  // let results = leafletPip.pointInLayer([-72.7317 , 43.88], gjLayer); //returns an array. if length is 0, not in VT, goes again. if length is 1, it is in VT
+  // console.log(results)
 
   //generate random coordinates 
-  //use nominator
   //using max/min .. compare against pip
+  
+  //https://nominatim.openstreetmap.org/reverse?lat=<value>&lon=<value>&<params>
+  //use nominator^^^^^^
+  
+  // format=[xml|json|jsonv2|geojson|geocodejson]
+  //output format^^^^^^^^
+
+  //use geoJson polygon output
+
   //
   
   return (
