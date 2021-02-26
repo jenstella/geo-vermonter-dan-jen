@@ -1,5 +1,6 @@
 import { MapContainer, TileLayer, Polygon, Marker, Polyline } from "react-leaflet";
 import borderData from "../data/border";
+// import LocGen from './components/LocGen'
 import L from "leaflet"
 import leafletPip from "leaflet-pip"
 
