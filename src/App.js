@@ -7,7 +7,7 @@ import Map from './components/Map'
 import Info from './components/Info'
 import Score from './components/Score'
 
-function App() {
+function App(props) {
 
   const [center, setCenter] = useState([43.88, -72.7317])
 

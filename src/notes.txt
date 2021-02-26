@@ -19,3 +19,4 @@
 --------buttons------
 -every time a direction button is clicked, score decreases by 1 (onClick)
 -enabling/disabling buttons
+
