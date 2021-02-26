@@ -16,7 +16,11 @@ function randomSpot(min, max) {
   setCenter(leafletPip.pointInLayer([-72.7317 , 43.88], gjLayer)); 
   console.log(center)
 
-  retu
+  return
+
+    
+
+  
 }
 
 export default LocGen
