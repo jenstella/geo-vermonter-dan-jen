@@ -15,7 +15,7 @@ function LocGen(props) {
   let minLong = -71.51022535353107;
   let maxLong = -73.42613118833583;
 
-  //Generates Random Number
+  //Generates Random Number !
   function randomSpot(min, max) {
     return Math.random() * (max - min) + min;
   }
