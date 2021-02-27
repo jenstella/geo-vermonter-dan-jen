@@ -1,6 +1,6 @@
 import { MapContainer, TileLayer, Polygon, Marker, Polyline } from "react-leaflet";
 import borderData from "../data/border";
-// import LocGen from './components/LocGen'
+import LocationGenerator from "./LocGen";
 import L from "leaflet"
 import leafletPip from "leaflet-pip"
 
@@ -16,13 +16,13 @@ function Map(props) {
   //using max/min .. compare against pip
   
   //https://nominatim.openstreetmap.org/reverse?lat=<value>&lon=<value>&<params>
-  //use nominator^^^^^^
+  //use nominatim^^^^^^
   
   // format=[xml|json|jsonv2|geojson|geocodejson]
   //output format^^^^^^^^
 
   //use geoJson polygon output
-
+  
   //
   
   return (

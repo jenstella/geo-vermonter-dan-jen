@@ -5,7 +5,7 @@ import DirButtons from './components/DirButtons'
 import Map from './components/Map'
 import Info from './components/Info'
 import Score from './components/Score'
-import LocGen from './components/LocGen'
+import PlayButtons from './components/PlayButtons';
 
 function App(props) {
 
@@ -15,7 +15,7 @@ function App(props) {
     <div>
       <NavBar />
       <Map center={center} />
-      <LocGen setCenter={setCenter}/>
+      <PlayButtons />
       <DirButtons />
       <Info />
       <Score />
