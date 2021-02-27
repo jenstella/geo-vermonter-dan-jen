@@ -1,4 +1,5 @@
 import { useState } from "react";
+import LocationGenerator from "./LocGen";
 
 //the buttons to play the game. when player hits start, start is disabled and guess and give up become enabled. when player wins or quits, start is enabled and guess/give up are disabled.
 //functionality to come
@@ -13,6 +14,7 @@ function PlayButtons(props) {
       setGamePlay(true);
     }
   }
+  
 
 //   function gameOver(){
     
